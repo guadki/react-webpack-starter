@@ -1,11 +1,12 @@
 {
-  "name": "webpack-3",
-  "version": "1.0.0",
+  "name": "react-webpack-starter",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
     "start": "webpack serve --open --mode development",
+    "prod": "webpack --mode production",
     "test": "jest"
   },
   "keywords": [],
